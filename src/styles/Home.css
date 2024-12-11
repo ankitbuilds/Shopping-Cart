@@ -54,4 +54,25 @@
     background: #333;
     color: #fff;
   }
+  .slider {
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 300px;
+  }
+  
+  .slide {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+  }
+  
+  .slide.active {
+    opacity: 1;
+  }
+  
   
