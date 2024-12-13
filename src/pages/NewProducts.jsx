@@ -1,6 +1,7 @@
 import React from "react";
 import '../styles/NewProducts.css';
 
+
 function NewProducts() {
   const products = [
     { id: 1, name: "Product 1", price: "$100", image: "https://via.placeholder.com/150" },

@@ -1,13 +1,17 @@
 import React from "react";
 import "../styles/Products.css";
+import Image7 from "../assets/images/image7.jpg";
+import Image8 from "../assets/images/image8.jpg";
+import Image9 from "../assets/images/image9.jpg";
+import Image10 from "../assets/images/image10.jpg";
 
 function Products() {
   // Sample product data
   const products = [
-    { id: 1, name: "Product 1", price: "$100", image: "https://via.placeholder.com/150" },
-    { id: 2, name: "Product 2", price: "$200", image: "https://via.placeholder.com/150" },
-    { id: 3, name: "Product 3", price: "$300", image: "https://via.placeholder.com/150" },
-    { id: 4, name: "Product 4", price: "$400", image: "https://via.placeholder.com/150" },
+    { id: 1, name: "Product 1", price: "$100", image: Image7 },
+    { id: 2, name: "Product 2", price: "$200", image: Image8 },
+    { id: 3, name: "Product 3", price: "$300", image: Image9 },
+    { id: 4, name: "Product 4", price: "$400", image: Image10 },
   ];
 
   return (

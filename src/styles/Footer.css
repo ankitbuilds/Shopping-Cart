@@ -1,0 +1,153 @@
+.footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+  }
+  
+  .container {
+    max-width: 1200px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 0 20px; /* Add padding for better spacing on smaller screens */
+  }
+  
+  .footer-section {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .footer-contact,
+  .footer-navigate,
+  .footer-newsletter {
+    text-align: left;
+    flex: 1;
+    min-width: 250px;
+  }
+  
+  h4 {
+    margin-bottom: 10px;
+    font-size: 18px;
+  }
+  
+  ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  ul li {
+    margin: 5px 0;
+  }
+  
+  ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
+  ul li a:hover {
+    text-decoration: underline;
+  }
+  
+  .newsletter-input {
+    width: 70%;
+    padding: 10px;
+    margin-right: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+  }
+  
+  .newsletter-button {
+    padding: 10px 15px;
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+  }
+  
+  .newsletter-button:hover {
+    background-color: #0056b3;
+  }
+  
+  .footer-bottom {
+    text-align: center;
+    margin-top: 20px;
+    font-size: 14px;
+    padding-top: 10px;
+    border-top: 1px solid #444;
+  }
+  
+  .box {
+    display: flex;
+    align-items: center;
+  }
+  
+  .footer-contact p {
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.6;
+  }
+  
+  /* Responsive Design */
+  @media (max-width: 768px) {
+    .footer-section {
+      flex-direction: column;
+      gap: 30px;
+    }
+  
+    .footer-contact,
+    .footer-navigate,
+    .footer-newsletter {
+      min-width: 100%;
+    }
+  
+    .newsletter-input {
+      width: calc(100% - 120px); /* Adjust width for smaller screens */
+    }
+  
+    .newsletter-button {
+      width: 100px; /* Ensure button stays visible */
+    }
+  
+    ul li a {
+      font-size: 16px; /* Slightly larger for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .footer {
+      padding: 15px 0;
+    }
+  
+    .footer-section {
+      gap: 15px;
+    }
+  
+    h4 {
+      font-size: 16px;
+    }
+  
+    ul li a {
+      font-size: 14px;
+    }
+  
+    .newsletter-input {
+      width: 100%; /* Full width for very small screens */
+      margin-bottom: 10px;
+    }
+  
+    .newsletter-button {
+      width: 100%; /* Full width button for very small screens */
+    }
+  
+    .footer-bottom {
+      font-size: 12px;
+    }
+  }
+  
